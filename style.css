@@ -212,13 +212,14 @@ main {
         }
     }
 
-    .add-item{
+    .add-item {
         display: grid;
         grid-template-columns: repeat(10,1fr);
-        gap: 1.6rem
+        gap: 1.6rem;
 
         input {
             margin-bottom: 0;
+            
             grid-column: 1/8;
         }
 
